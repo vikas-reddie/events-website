@@ -1,0 +1,60 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+  }
+  
+  .head, .faq, .chat, .contact {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .faq h2, .chat h1, .contact h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .faq .linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .faq .link {
+    margin-bottom: 0.5rem;
+  }
+  
+  .chat h3, .chat p {
+    margin-bottom: 1rem;
+  }
+  .contact .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #0f6a6b;
+  }
+  .contact button:hover {
+    background-color: #8de6e7;
+  }
+  .contact hr {
+    width: 100%;
+    border-top: 1px solid black;
+    margin: 2rem 0;
+  }
+  
