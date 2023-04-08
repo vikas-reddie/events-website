@@ -7,7 +7,7 @@ export default function Blog()
 {
     return(
         <div>
-            <Nav/>
+
             <div className={Style.head}>
             <h3>Get Your Tickets with</h3>
             <h1>IT'S FOR YOU </h1>
