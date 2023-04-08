@@ -1,4 +1,4 @@
-import home from "./Home.png" 
+import home from "../asserts/Home.png" 
 import  Login from './login.js'
 import Styles from '../styles/Home.module.css'
 import Nav from "../components/nav"

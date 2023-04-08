@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Nav from "../components/nav";
 import style from '../styles/login.module.css';
-import openImage from '../components/open.png';
+import openImage from '../asserts/open.png';
+import closeImage from '../asserts/close.png'
+import Link from 'next/link';
 
 export default function Login() {
   return (
@@ -21,7 +23,7 @@ export default function Login() {
           <div className={style.button}>
             <button>login</button>
             <p>New here?</p>
-            <a>signup</a>
+            <Link href="./signup">SIGNUP</Link>
           </div>
         </div>
       </div>

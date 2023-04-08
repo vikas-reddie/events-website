@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Nav from "../components/nav";
-import image1 from "./Home.png"
+import image1 from "../asserts/Home.png"
 import Image from "next/image";
 
 export default function Blog()

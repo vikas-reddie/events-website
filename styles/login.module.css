@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 20px;
+    padding: 50px;
     overflow-y: hidden;
   }
   
@@ -35,7 +35,7 @@
   
   .login  button {
     padding: 10px 20px;
-    background-color: #0f6a6b;
+    background-color: #85cabb;
     color: black;
     border: none;
     border-radius: 5px;

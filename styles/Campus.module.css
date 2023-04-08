@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50vh;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px  black;
+  }
+  
+  .item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: -5vh;
+    overflow: hidden;
+    z-index: 2;
+    border: solid 1.5px  black;
+  }
+  
+  .image {
+    object-fit: cover;
+  }
+  
+  .textContainer {
+    margin-top: 10px;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
