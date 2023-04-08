@@ -11,16 +11,19 @@ export default function Signup() {
     const [password,setPassword]=useState('')
     const submithand = (e)=>{
         e.preventDefault();
-        localStorage.setItem('Registration',registration);
-        localStorage.setItem('Email',email);
-        localStorage.setItem('Password',password);
-        console.log(registration)
+        const value ={
+            "email":email,
+            "password":password,
+            "registration":registration
+
+          }
+          localStorage.setItem(email,JSON.stringify(value));
 
         
         
     }
     return (
-      <div >
+      <div className={style.land}  >
         <div className={style.container}>
             <div className={style.login}>
                 <h1>SIGNUP</h1>

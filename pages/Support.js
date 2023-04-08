@@ -4,8 +4,8 @@ import Style from '../styles/support.module.css'
 
 export default function Support() {
   return (
-    <div>
-      <Nav />
+    <div className={Style.page} >
+    <div className={Style.color}>
       <div className={Style.content}>
         <div className={Style.head}>
           <h1>IT'S FOR YOU</h1>
@@ -41,6 +41,7 @@ export default function Support() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

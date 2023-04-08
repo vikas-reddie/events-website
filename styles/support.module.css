@@ -1,9 +1,18 @@
+.page{
+    background: url("../asserts/Home.png") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 135vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 10vh;
+    top: 5vh;
   }
   
   .head, .faq, .chat, .contact {
@@ -57,4 +66,10 @@
     border-top: 1px solid black;
     margin: 2rem 0;
   }
+  .color{
+    background-color: rgb(255,255,255,0.8);
+    width: 100vw;
+    height: 135vh;
+
+ } 
   

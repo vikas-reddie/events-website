@@ -1,3 +1,12 @@
+.land{
+    background: url("../asserts/Home.png") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .container {
     display: flex;
     justify-content: center;
