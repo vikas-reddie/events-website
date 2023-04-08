@@ -6,7 +6,6 @@ export default function Support()
 {
     return(
         <div>
-           <Nav/> 
            <h1>IT'S FOR YOU</h1> 
            <h3>Need help? Reach us out </h3>
            <h2>FAQ's</h2>

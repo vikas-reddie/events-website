@@ -7,7 +7,7 @@ export default function Blog()
 {
     return(
         <div>
-            <Nav/>
+
             <h3>Get Your Tickets with</h3>
             <h1>it's for you </h1>
             <h2>Easy To Buying The tickets for our events</h2>

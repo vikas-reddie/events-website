@@ -1,3 +1,9 @@
+.land{
+  background: url("../asserts/Home.png") no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh ;
+}
 .container {
   padding: 0 2rem;
 }

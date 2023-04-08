@@ -8,7 +8,6 @@ import Link from 'next/link';
 export default function Login() {
   return (
     <div >
-      <Nav />
       <div className={style.container}>
         <div className={style.login}>
           <h1>LOGIN</h1>
