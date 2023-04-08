@@ -55,6 +55,9 @@ export default function Events()
                 })}
 
             </div>
+            <div className={styles.name}>
+                                <h1>"GET  YOUR PASSES HERE"</h1>
+            </div>
 
         </div>
     )

@@ -53,10 +53,11 @@
   }
   
   .login button:hover {
-    background-color: #8de6e7;
+    background-color: #badfd7;
+    color: white;
   }
   .b1{
-    background-color: #0f6a6b;
+    background-color: #85cabb;
   }
   .b2{
     background-color: #8de6e7;

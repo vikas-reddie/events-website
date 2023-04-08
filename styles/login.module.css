@@ -11,8 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow-y: hidden;
+    height: 50vh;
   }
   
   .login {
@@ -22,6 +21,7 @@
     align-items: center;
     padding: 20px;
     border-radius: 30px 30px 30px 30px;
+    background-color: rgb(255,255,255,0.8);;
   }
   
   .login h1 {

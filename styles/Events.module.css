@@ -42,4 +42,13 @@
     top: 40%;
     font-size: large;
 }
-
+.name{
+    position: relative;
+    right: -110vh;
+    top: -20vh;
+    font-family: 'Gladiola';
+    font-style: italic;
+    font-weight: bold;
+    width: 200px;
+    padding: 2vh;
+}
