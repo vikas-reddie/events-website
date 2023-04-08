@@ -9,7 +9,6 @@ export default function Signup() {
 
     return (
       <div >
-        <Nav />
         <div className={style.container}>
             <div className={style.login}>
                 <h1>SIGNUP</h1>

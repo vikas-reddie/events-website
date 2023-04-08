@@ -24,8 +24,7 @@ export default function Campus() {
   ];
 
   return (
-    <div>
-      <Nav />
+    <div className={Style.page}>
       <div className={Style.container}>
         {clgs.map((item, index) => {
           return (

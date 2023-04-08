@@ -8,7 +8,6 @@ export default function Home() {
   
   return (
     <div className={Style.land}>
-      <Nav />
       <div className={Style.container}>
       <div className={Style.head}>
         <h1>"IT'S FOR YOU"</h1>
