@@ -5,7 +5,7 @@ export default function Nav()
     return(
         <nav className={styles.nav}>
         <div className={styles.head}>
-            <h>IT'S FOR YOU</h>
+            <Link href={"/"}><h>IT'S FOR YOU</h></Link>
         </div>
         <div className={styles.page}>
             <Link href="./campus">Campus</Link>

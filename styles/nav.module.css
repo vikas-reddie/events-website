@@ -2,22 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     background-color: #badfd7;
-    height: max-content;
-    overflow-y: hidden;
     position: fixed;
-    width: 189vh;
+    width: 100vw;
+  z-index: 9;
   }
   
   .head {
     font-size: 1.5rem;
     color: #333;
+      margin: 10px 10px 10px 10px;
   }
   
   .page {
     display: flex;
     align-items: center;
+      font-family: sans-serif;
   }
   
   .page a {
@@ -26,24 +26,20 @@
     text-decoration: none;
     font-weight: bold;
   }
-  
-  .page a:hover {
-    color: #0070f3;
-  }
+
   
   .user {
     display: flex;
     align-items: center;
+      margin-right: 20px;
+      font-family: sans-serif;
   }
   
   .user a {
     margin-left: 1rem;
-    text-decoration: none;
+      font-weight: bold;
   }
-  
-  .user a:hover {
-    color: #0070f3;
-  }
+
   .head {
     font-size: 20px;
     background-color: #85cabb;
@@ -58,6 +54,14 @@
 }
 .head h{
     color: white;
+}
+.page a:hover, .user a:hover{
+  background-color: #0f6a6b;
+  color: white;
+}
+.page a, .user a{
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
 }
   
   

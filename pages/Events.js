@@ -1,5 +1,10 @@
 import Link from "next/link";
+import styles from "../styles/Events.module.css"
 import Nav from "../components/nav"
+import Image from "next/image";
+import img from "../asserts/poster.jpg"
+
+import line from "../asserts/Dotted-line.png"
 export default function Events()
 {
     const events = [
@@ -26,20 +31,30 @@ export default function Events()
         }
       ];
     return(
-        <div>
-            <Nav />
-            {events.map((item,value)=>{
-            return(
-                <div>
-                    
-                    <p1>{item.name}</p1><br/>
-                    <p1>{item.date}</p1><br/>
-                    <p1>{item.time}</p1><br/>
-                    <p1>{item.place}</p1><br/>
-                    <br/>
-                </div>
-            )
-        })}
+        <div className={styles.eventscontainer}>
+            <div className={styles.eventsdetails}>
+                {events.map((item,value)=>{
+                    return(
+                        <div key={item.name} className={styles.eventcard}>
+
+
+                            <Image  src={img}/>
+                            <div className={styles.description}>
+                                <h3>{item.name}</h3>
+                                <p>{item.date}</p>
+                                <p>{item.time}</p>
+                                <p>{item.place}</p>
+                            </div>
+                            <Image src={line}/>
+                            <div>
+                                <h4 className={styles.buy}>BUY IT</h4>
+                            </div>
+
+                        </div>
+                    )
+                })}
+
+            </div>
 
         </div>
     )
