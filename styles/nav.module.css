@@ -31,8 +31,8 @@
   .user {
     display: flex;
     align-items: center;
-      margin-right: 20px;
-      font-family: sans-serif;
+    margin-right: 20px;
+    font-family: sans-serif;
   }
   
   .user a {
@@ -55,14 +55,28 @@
 .head h{
     color: white;
 }
-.page a:hover, .user a:hover{
+.page a:hover{
   background-color: #0f6a6b;
   color: white;
 }
-.page a, .user a{
+.page a{
   border-radius: 10px;
   padding: 10px 20px 10px 20px;
 }
-  
+.logoutBtn{
+  padding: 10px 20px;
+    background-color: #85cabb;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ .logoutBtn button:hover {
+  background-color: #8de6e7;
+}
+
   
   

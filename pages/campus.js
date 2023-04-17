@@ -2,8 +2,10 @@ import Nav from "../components/nav";
 import Image from "next/image";
 import Style from '../styles/Campus.module.css'
 import blr from '../asserts/BLR.png'
+import { useRouter } from "next/router";
 
 export default function Campus() {
+  const router =useRouter()
   const clgs = [
     {
       name: 'BENGALURU',
@@ -22,13 +24,18 @@ export default function Campus() {
       url: '../components/BLR',
     }
   ];
+  const go = (e)=>{
+    e.preventDefault();
+    
+    router.push('/Events');
+    }
 
   return (
     <div className={Style.page}>
       <div className={Style.container}>
         {clgs.map((item, index) => {
           return (
-            <div key={index} className={Style.item}>
+            <div key={index} className={Style.item} onClick={go}>
               <div className={Style.imageContainer}>
                 <Image src={blr} alt={item.name} width={70} height={70} className={Style.image} />
               </div>

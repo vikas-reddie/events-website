@@ -3,10 +3,12 @@ import styles from "../styles/Events.module.css"
 import Nav from "../components/nav"
 import Image from "next/image";
 import img from "../asserts/poster.jpg"
+import { useRouter } from "next/router";
 
 import line from "../asserts/Dotted-line.png"
 export default function Events()
 {
+    const router =useRouter()
     const events = [
         {
           name: 'FRIGHT NIGHT RAVE',
@@ -30,12 +32,17 @@ export default function Events()
             place:'INFRONT OF NEW BOYS HOSTEL'
         }
       ];
+      const go = (e)=>{
+        e.preventDefault();
+        
+        router.push('/Tickt');
+        }
     return(
         <div className={styles.eventscontainer}>
             <div className={styles.eventsdetails}>
                 {events.map((item,value)=>{
                     return(
-                        <div key={item.name} className={styles.eventcard}>
+                        <div key={item.name} className={styles.eventcard} onClick={go}>
 
 
                             <Image  src={img}/>
@@ -55,7 +62,7 @@ export default function Events()
                 })}
 
             </div>
-            <div className={styles.name}>
+            <div className={styles.name} >
                                 <h1>"GET  YOUR PASSES HERE"</h1>
             </div>
 
